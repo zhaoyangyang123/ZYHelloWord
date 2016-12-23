@@ -1,0 +1,60 @@
+.div1{
+	background: white;
+}
+
+.logoImage{
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#downloadBtn{
+	color: red;
+	background-color: white;
+	border: 1px solid red;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 15px;
+	vertical-align: auto;
+}
+
+.title1{
+	color: #666666;
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.inputSty{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 66%;
+	height: 30px;
+	border: 0.5px solid #cccccc;
+	border-radius: 5px;
+	font-size: 15px;
+	color: #666666;
+}
+
+.capthStr{
+	border: 0.5px solid #cccccc; 
+	border-radius: 5px; 
+	background: white;
+    height: 30px;
+    width: 25%;
+    float: right;
+    margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.subBtnSty{
+	border: none; 
+	border-radius: 5px; 
+	background: #eeb21c;
+    height: 30px;
+    width: 95%;
+    margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 15px;
+	color: white;
+}

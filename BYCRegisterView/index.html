@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html style="height: 100%; width: 100%;">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>宝盈足球</title>
+		<link rel="stylesheet" href="css/registerView.css" />
+		<script src="js/jquery-3.1.1.min.js" type="text/javascript"></script>
+		<style>
+			*{margin: 0; padding: 0;}
+		</style>
+	</head>
+	<body style="background: #f0f0f2;">
+		<!--宝盈彩logo和立即下载按钮-->
+		<div class="div1">
+			<img class="logoImage" src="img/byclogo.png" />
+			<table id="downloadBtn">
+			<tr>
+				<td>立即下载</td>
+			</tr>
+			</table>
+		</div>
+		
+		<script>
+		    var screenWidth = $(window).width();
+			var logoHeight = screenWidth*101/750;
+			var div1Height = logoHeight+20;
+			var downloadBtnTop = (div1Height/2)-(div1Height/3/2);
+			$(".div1").css("height", div1Height);
+			$(".logoImage").css("height", logoHeight);
+			$("#downloadBtn").css("width", div1Height/4*5);
+			$("#downloadBtn").css("height", div1Height/3);
+			$("#downloadBtn").css({"position":"absolute", "top":downloadBtnTop, "right":10});
+		</script>
+		
+		<!--专家图片-->
+		<div>
+			<img src="img/E621746D-564F-4BFB-9E33-9FF23626460D.png" style="width: 100%;"/>
+		</div>
+			
+		<!--输入框-->
+		<dl style="text-align: center;">
+			<dt style="margin-top: 5px;">加入宝盈足球，享受更多精彩推荐</dt>
+			<dd style="background: white; margin-top: 8px">
+				<input class="inputSty" type="tel" placeholder="请输入手机号" style="margin-top: 10px;"/>
+	
+				<div style="width: 66%; margin-left: 17%; overflow: hidden;">
+					<input class="inputSty" type="text" placeholder="请输入短信验证码" style="width: 50%; float: left; display: inline;"/>
+					<button class="capthStr">验证码</button>
+				</div>
+				
+				<input class="inputSty" type="password" placeholder="请输入密码"/>
+				
+				<div style="width: 66%; margin-left: 17%; overflow: hidden;">
+					<input class="inputSty" type="text" placeholder="请输入邀请码" style="margin-bottom: 10px; width: 50%; float: left; display: inline;"/>
+					<button style="width: 33%; border: none; text-align: right;" class="capthStr">邀请码自动读入</button>
+				</div>
+			</dd>
+			
+			<dd>
+				<button class="subBtnSty">确认提交</button>
+			</dd>
+			
+			<p>首次注册即送百元大礼包，另有专家推荐，只需一元！关注宝盈足球，打开"我的"查看</p>
+			<img src="img/erweima.png" style="width: 100%; margin-top: 10px;"
+		</dl>
+		
+		
+	</body>
+</html>
